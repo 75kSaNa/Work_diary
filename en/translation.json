@@ -1,0 +1,144 @@
+{
+    "locale":"en",
+    "extra":{
+        "api":{
+            "holiday":{
+                "url": "https://date.nager.at/api/v2/publicholidays",
+                "url2": "https://holidays-jp.github.io/api/v1/date.json"
+            }
+        }
+    },
+    "mode":{
+        "recorder":"Work Diary",
+        "viewer":"Viewer Mode"
+    },
+    "table":{
+        "resources":{
+            "plan":"Plan",
+            "result":"Result"
+        },
+        "taskList":"To do List",
+        "taskListDescription":"(Draggable Events for Plan)",
+        "addTaskButton":"Add Task ",
+        "removeAfterDrop":"remove after drop"
+    },
+    "prompt":{
+        "EntryTask":{
+            "title":"Task regist",
+            "message":"Please Entar Your Task Title",
+            "chooseCategory":"Select Category",
+            "comment":"production amount",
+            "ok":"regist",
+            "cancel":"Cancel",
+            "none":"(Unit for production)",
+            "page":"page",
+            "case":"case",
+            "step":"Steps"
+            },
+        "Settings":{
+            "title":"Settings",
+            "message":"you can change settings below",
+            "proxySetting":"you need to set infomation for proxy",
+            "hour12":"Display am / pm",
+            "lang":"select display language",
+            "useHoliday":"Use function to add Holidays",
+            "countryCode":"Choose your country",
+            "startTime":"Start Time",
+            "endTime":"End Time",
+            "useProxy":"Use Proxy on / off",
+            "useAuth":"Proxy Authentication on / off",
+            "passwordVisible":"Display Password",
+            "ok":"Save",
+            "cancel":"Cancel"
+            },
+        "ProxyAuth":{
+            "title":"Proxy Authentication",
+            "message":"Proxy Authentication for adding Holiday data.",
+            "ok":"OK",
+            "cancel":"Cancel"
+            },
+        "EditTask":{
+            "title":"Edit task title",
+            "message":"Do you want to change title?"
+            },
+        "CopyTask":{
+            "title":"Copy item to result",
+            "message":"Do you want to copy this task to Result?"
+            },
+        "DeleteTask":{
+            "title":"Delete task",
+            "message":"Do you want to copy this task?"
+            },
+        "DeleteTodoTask":{
+            "title":"Delete to do list",
+            "message":"Do you want to copy this item?"
+            },
+        "backup":{
+            "title":"back up direction & File name",
+            "message":"Choose back up destination"
+            },
+        "restore":{
+            "title":"Load File",
+            "message":"Choose File for loading"
+            },
+        "about":{
+            "title":"about this Software",
+            "softName":"Work Diary"
+        }
+    },
+    "report":{
+        "outputButton":"Export to Text",    
+        "target":"Today's Target point", 
+        "targetPlaceholder":"please enter taget point in plan collumn",
+        "goal":"Goal level",
+        "problems":"Problems", 
+        "cause":"Cause",
+        "solution":"Solution", 
+        "thoughts":"My comments",
+        "comment":"Comments from your supervisor",
+        "timeTableName":"Plan / Result",
+        "toDo":"To dO",
+        "output":"Outputs"
+    },
+    "menu":{
+        "general":{
+        	"label":"Preference",
+            "preference":"Preference",
+            "categoryEditor":"Category Editor",
+            "categoryBackup":"Category Backup",
+            "categoryRestore":"Category Restore"
+        },
+        "viewer":{
+        	"viwerMenu":"Data viewer",
+            "openFile":"Open file"
+        },
+        "DB":{
+        	"dbMenu":"DataBase menu",
+            "exportToday":"export(Today)",
+            "exportWeek":"export(past a week)",
+            "dbBackup":"DataBase export",
+            "dbRestore":"DataBase import"
+        },
+        "view":{
+            "label": "View",
+            "forceReload":"Force Reload",
+            "reload":"Reload",
+            "resetzoom":"Reset zoom",
+            "zoomin":"Zoomin",
+            "zoomout":"Zoomout",
+            "togglefullscreen":"Toggle Fullscreen",
+            "toggleDevTools":"Toggle DevTools"
+        },
+        "info":{
+            "info":"Info",
+            "about":"about",
+            "privacyPolicy":"Privacy policy"
+        }
+    },
+    "message":{
+        "error":{
+            "systemErrorInitialize":"System Error.\nInitialize Settings.",
+            "systemErrorCannotGetHolidayData":"Failed to add Holiday Data.\nTurn OFF add Holiday function Display."
+        }
+    }
+}
